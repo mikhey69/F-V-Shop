@@ -8,22 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		D68FA2DA21C500FE00F572B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2D921C500FE00F572B6 /* AppDelegate.swift */; };
-		D68FA2DC21C500FE00F572B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2DB21C500FE00F572B6 /* ViewController.swift */; };
 		D68FA2DF21C500FE00F572B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2DD21C500FE00F572B6 /* Main.storyboard */; };
 		D68FA2E221C500FE00F572B6 /* F_V_Shop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2E021C500FE00F572B6 /* F_V_Shop.xcdatamodeld */; };
 		D68FA2E421C5010A00F572B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2E321C5010A00F572B6 /* Assets.xcassets */; };
 		D68FA2E721C5010A00F572B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68FA2E521C5010A00F572B6 /* LaunchScreen.storyboard */; };
+		D68FA2EF21C5024800F572B6 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2EE21C5024800F572B6 /* Fruits.swift */; };
+		D68FA2F121C502ED00F572B6 /* Vegetables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2F021C502ED00F572B6 /* Vegetables.swift */; };
+		D68FA2F421C5037500F572B6 /* Mango.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2F321C5037500F572B6 /* Mango.swift */; };
+		D68FA2F721C503F700F572B6 /* Strawberry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2F621C503F700F572B6 /* Strawberry.swift */; };
+		D68FA2F921C506AB00F572B6 /* Watermelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2F821C506AB00F572B6 /* Watermelon.swift */; };
+		D68FA2FB21C506E700F572B6 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2FA21C506E700F572B6 /* Price.swift */; };
+		D68FA2FD21C50A6400F572B6 /* Raspberry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2FC21C50A6400F572B6 /* Raspberry.swift */; };
+		D68FA2FF21C50B2500F572B6 /* Pineapple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA2FE21C50B2500F572B6 /* Pineapple.swift */; };
+		D68FA30121C50D1700F572B6 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30021C50D1700F572B6 /* Banana.swift */; };
+		D68FA30321C50F0300F572B6 /* Peach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30221C50F0300F572B6 /* Peach.swift */; };
+		D68FA30521C510CE00F572B6 /* Blueberry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30421C510CE00F572B6 /* Blueberry.swift */; };
+		D68FA30721C5113C00F572B6 /* Garnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30621C5113C00F572B6 /* Garnet.swift */; };
+		D68FA30921C5127A00F572B6 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30821C5127A00F572B6 /* Apple.swift */; };
+		D68FA30B21C512BC00F572B6 /* Potatoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30A21C512BC00F572B6 /* Potatoes.swift */; };
+		D68FA30E21C5130D00F572B6 /* Onions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30D21C5130D00F572B6 /* Onions.swift */; };
+		D68FA31021C5131600F572B6 /* Carrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA30F21C5131600F572B6 /* Carrot.swift */; };
+		D68FA31221C5132000F572B6 /* Corn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31121C5132000F572B6 /* Corn.swift */; };
+		D68FA31421C5132800F572B6 /* Broccoli.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31321C5132800F572B6 /* Broccoli.swift */; };
+		D68FA31621C5133200F572B6 /* Red_Pepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31521C5133200F572B6 /* Red_Pepper.swift */; };
+		D68FA31821C5133B00F572B6 /* Spinach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31721C5133B00F572B6 /* Spinach.swift */; };
+		D68FA31A21C5134700F572B6 /* Beets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31921C5134700F572B6 /* Beets.swift */; };
+		D68FA31C21C5135100F572B6 /* Tomatoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31B21C5135100F572B6 /* Tomatoes.swift */; };
+		D68FA31E21C5135800F572B6 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FA31D21C5135800F572B6 /* Mushroom.swift */; };
+		D6A95D9721C52880005F3DB4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95D9621C52880005F3DB4 /* Login.swift */; };
+		D6A95D9921C52DF5005F3DB4 /* FruitsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95D9821C52DF5005F3DB4 /* FruitsList.swift */; };
+		D6A95D9B21C52E03005F3DB4 /* VegetablesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95D9A21C52E03005F3DB4 /* VegetablesList.swift */; };
+		D6A95D9D21C5325A005F3DB4 /* FruitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95D9C21C5325A005F3DB4 /* FruitFactory.swift */; };
+		D6A95D9F21C53575005F3DB4 /* VegetablesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95D9E21C53575005F3DB4 /* VegetablesFactory.swift */; };
+		D6A95DA221C5368E005F3DB4 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A95DA121C5368E005F3DB4 /* Basket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D68FA2D621C500FE00F572B6 /* F&V Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F&V Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68FA2D921C500FE00F572B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D68FA2DB21C500FE00F572B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D68FA2DE21C500FE00F572B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D68FA2E121C500FE00F572B6 /* F_V_Shop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = F_V_Shop.xcdatamodel; sourceTree = "<group>"; };
 		D68FA2E321C5010A00F572B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68FA2E621C5010A00F572B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D68FA2E821C5010A00F572B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68FA2EE21C5024800F572B6 /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		D68FA2F021C502ED00F572B6 /* Vegetables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetables.swift; sourceTree = "<group>"; };
+		D68FA2F321C5037500F572B6 /* Mango.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mango.swift; sourceTree = "<group>"; };
+		D68FA2F621C503F700F572B6 /* Strawberry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strawberry.swift; sourceTree = "<group>"; };
+		D68FA2F821C506AB00F572B6 /* Watermelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermelon.swift; sourceTree = "<group>"; };
+		D68FA2FA21C506E700F572B6 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		D68FA2FC21C50A6400F572B6 /* Raspberry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry.swift; sourceTree = "<group>"; };
+		D68FA2FE21C50B2500F572B6 /* Pineapple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pineapple.swift; sourceTree = "<group>"; };
+		D68FA30021C50D1700F572B6 /* Banana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banana.swift; sourceTree = "<group>"; };
+		D68FA30221C50F0300F572B6 /* Peach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peach.swift; sourceTree = "<group>"; };
+		D68FA30421C510CE00F572B6 /* Blueberry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueberry.swift; sourceTree = "<group>"; };
+		D68FA30621C5113C00F572B6 /* Garnet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garnet.swift; sourceTree = "<group>"; };
+		D68FA30821C5127A00F572B6 /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		D68FA30A21C512BC00F572B6 /* Potatoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potatoes.swift; sourceTree = "<group>"; };
+		D68FA30D21C5130D00F572B6 /* Onions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onions.swift; sourceTree = "<group>"; };
+		D68FA30F21C5131600F572B6 /* Carrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrot.swift; sourceTree = "<group>"; };
+		D68FA31121C5132000F572B6 /* Corn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corn.swift; sourceTree = "<group>"; };
+		D68FA31321C5132800F572B6 /* Broccoli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Broccoli.swift; sourceTree = "<group>"; };
+		D68FA31521C5133200F572B6 /* Red_Pepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_Pepper.swift; sourceTree = "<group>"; };
+		D68FA31721C5133B00F572B6 /* Spinach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinach.swift; sourceTree = "<group>"; };
+		D68FA31921C5134700F572B6 /* Beets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beets.swift; sourceTree = "<group>"; };
+		D68FA31B21C5135100F572B6 /* Tomatoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tomatoes.swift; sourceTree = "<group>"; };
+		D68FA31D21C5135800F572B6 /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		D6A95D9621C52880005F3DB4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D6A95D9821C52DF5005F3DB4 /* FruitsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsList.swift; sourceTree = "<group>"; };
+		D6A95D9A21C52E03005F3DB4 /* VegetablesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesList.swift; sourceTree = "<group>"; };
+		D6A95D9C21C5325A005F3DB4 /* FruitFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitFactory.swift; sourceTree = "<group>"; };
+		D6A95D9E21C53575005F3DB4 /* VegetablesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesFactory.swift; sourceTree = "<group>"; };
+		D6A95DA121C5368E005F3DB4 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +112,16 @@
 		D68FA2D821C500FE00F572B6 /* F&V Shop */ = {
 			isa = PBXGroup;
 			children = (
+				D68FA2FA21C506E700F572B6 /* Price.swift */,
+				D6A95D9621C52880005F3DB4 /* Login.swift */,
+				D6A95D9821C52DF5005F3DB4 /* FruitsList.swift */,
+				D6A95D9A21C52E03005F3DB4 /* VegetablesList.swift */,
+				D6A95DA121C5368E005F3DB4 /* Basket.swift */,
+				D6A95DA021C53641005F3DB4 /* Factories */,
+				D68FA2F521C503E500F572B6 /* Fruits model */,
+				D68FA30C21C512C200F572B6 /* Vegetables model */,
+				D68FA2F221C5032000F572B6 /* F&V protocol */,
 				D68FA2D921C500FE00F572B6 /* AppDelegate.swift */,
-				D68FA2DB21C500FE00F572B6 /* ViewController.swift */,
 				D68FA2DD21C500FE00F572B6 /* Main.storyboard */,
 				D68FA2E321C5010A00F572B6 /* Assets.xcassets */,
 				D68FA2E521C5010A00F572B6 /* LaunchScreen.storyboard */,
@@ -65,6 +129,58 @@
 				D68FA2E021C500FE00F572B6 /* F_V_Shop.xcdatamodeld */,
 			);
 			path = "F&V Shop";
+			sourceTree = "<group>";
+		};
+		D68FA2F221C5032000F572B6 /* F&V protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA2EE21C5024800F572B6 /* Fruits.swift */,
+				D68FA2F021C502ED00F572B6 /* Vegetables.swift */,
+			);
+			path = "F&V protocol";
+			sourceTree = "<group>";
+		};
+		D68FA2F521C503E500F572B6 /* Fruits model */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA2F321C5037500F572B6 /* Mango.swift */,
+				D68FA2F621C503F700F572B6 /* Strawberry.swift */,
+				D68FA2F821C506AB00F572B6 /* Watermelon.swift */,
+				D68FA2FC21C50A6400F572B6 /* Raspberry.swift */,
+				D68FA2FE21C50B2500F572B6 /* Pineapple.swift */,
+				D68FA30021C50D1700F572B6 /* Banana.swift */,
+				D68FA30221C50F0300F572B6 /* Peach.swift */,
+				D68FA30421C510CE00F572B6 /* Blueberry.swift */,
+				D68FA30621C5113C00F572B6 /* Garnet.swift */,
+				D68FA30821C5127A00F572B6 /* Apple.swift */,
+			);
+			path = "Fruits model";
+			sourceTree = "<group>";
+		};
+		D68FA30C21C512C200F572B6 /* Vegetables model */ = {
+			isa = PBXGroup;
+			children = (
+				D68FA30A21C512BC00F572B6 /* Potatoes.swift */,
+				D68FA30D21C5130D00F572B6 /* Onions.swift */,
+				D68FA30F21C5131600F572B6 /* Carrot.swift */,
+				D68FA31121C5132000F572B6 /* Corn.swift */,
+				D68FA31321C5132800F572B6 /* Broccoli.swift */,
+				D68FA31521C5133200F572B6 /* Red_Pepper.swift */,
+				D68FA31721C5133B00F572B6 /* Spinach.swift */,
+				D68FA31921C5134700F572B6 /* Beets.swift */,
+				D68FA31B21C5135100F572B6 /* Tomatoes.swift */,
+				D68FA31D21C5135800F572B6 /* Mushroom.swift */,
+			);
+			path = "Vegetables model";
+			sourceTree = "<group>";
+		};
+		D6A95DA021C53641005F3DB4 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				D6A95D9C21C5325A005F3DB4 /* FruitFactory.swift */,
+				D6A95D9E21C53575005F3DB4 /* VegetablesFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +254,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68FA2F721C503F700F572B6 /* Strawberry.swift in Sources */,
+				D68FA2FB21C506E700F572B6 /* Price.swift in Sources */,
+				D68FA31A21C5134700F572B6 /* Beets.swift in Sources */,
 				D68FA2E221C500FE00F572B6 /* F_V_Shop.xcdatamodeld in Sources */,
-				D68FA2DC21C500FE00F572B6 /* ViewController.swift in Sources */,
+				D6A95DA221C5368E005F3DB4 /* Basket.swift in Sources */,
+				D68FA30321C50F0300F572B6 /* Peach.swift in Sources */,
+				D6A95D9D21C5325A005F3DB4 /* FruitFactory.swift in Sources */,
+				D68FA30521C510CE00F572B6 /* Blueberry.swift in Sources */,
+				D68FA30121C50D1700F572B6 /* Banana.swift in Sources */,
+				D68FA31021C5131600F572B6 /* Carrot.swift in Sources */,
+				D68FA31E21C5135800F572B6 /* Mushroom.swift in Sources */,
+				D68FA30E21C5130D00F572B6 /* Onions.swift in Sources */,
+				D68FA30721C5113C00F572B6 /* Garnet.swift in Sources */,
+				D68FA2FD21C50A6400F572B6 /* Raspberry.swift in Sources */,
+				D68FA30B21C512BC00F572B6 /* Potatoes.swift in Sources */,
+				D68FA2F421C5037500F572B6 /* Mango.swift in Sources */,
+				D68FA31621C5133200F572B6 /* Red_Pepper.swift in Sources */,
+				D6A95D9721C52880005F3DB4 /* Login.swift in Sources */,
+				D68FA30921C5127A00F572B6 /* Apple.swift in Sources */,
+				D6A95D9F21C53575005F3DB4 /* VegetablesFactory.swift in Sources */,
+				D6A95D9B21C52E03005F3DB4 /* VegetablesList.swift in Sources */,
+				D68FA2FF21C50B2500F572B6 /* Pineapple.swift in Sources */,
 				D68FA2DA21C500FE00F572B6 /* AppDelegate.swift in Sources */,
+				D68FA31821C5133B00F572B6 /* Spinach.swift in Sources */,
+				D68FA31C21C5135100F572B6 /* Tomatoes.swift in Sources */,
+				D68FA2F121C502ED00F572B6 /* Vegetables.swift in Sources */,
+				D68FA2EF21C5024800F572B6 /* Fruits.swift in Sources */,
+				D68FA31221C5132000F572B6 /* Corn.swift in Sources */,
+				D6A95D9921C52DF5005F3DB4 /* FruitsList.swift in Sources */,
+				D68FA31421C5132800F572B6 /* Broccoli.swift in Sources */,
+				D68FA2F921C506AB00F572B6 /* Watermelon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
